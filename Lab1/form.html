@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Registration Form</legend>
+    <form>
+      <label for="firstname">First Name </label>
+      <input type="text" id="firstname" name="firstname" />
+      <br />
+      <label for="lastname">Last Name </label>
+      <input type="text" id="lastname" name="lastname" />
+      <br />
+      <label for="username">User name </label>
+      <input type="text" id="username" name="username" />
+      <br />
+      <label for="pass">Pass </label>
+      <input type="text" id="pass" name="pass" />
+      <br />
+      <label for="track">Track </label>
+      <select name="track" id="track">
+        <option value="bi">BI</option>
+        <option value="os">OS</option>
+        <option value="ai">AI</option>
+      </select>
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <br />
+      <label>Favorites</label>
+      <input type="checkbox" name="fav1" id="favorites" value="football" />football
+      <input type="checkbox" name="fav2" value="basketball" />basketball
+      <input type="checkbox" name="fav3" value="games" />games
+      <input type="checkbox" name="fav4" value="reading" />reading
+      <input type="checkbox" name="fav5" value="swimming" />swimming
+      <input type="checkbox" name="fav6" value="travel" />travel
+      <br />
+      <label for="description">Description</label>
+      <textarea name="description" id="description" cols="30" rows="10"></textarea>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+      <br />
+      <input type="file" />
+    </form>
+  </fieldset>
+
+</body>
+
+</html>

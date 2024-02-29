@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+}
+
+.header {
+  background-image: url(mehdi-messrro-yef79KkAguA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  position: relative;
+}
+
+.nav {
+  margin-top: 10px;
+  background-color: white;
+  display: inline-block;
+  width: 60%;
+}
+
+.nav p {
+  display: inline-block;
+  margin: 10px;
+}
+
+.logo {
+  float: left;
+  margin: 8px;
+  text-transform: uppercase;
+  color: darksalmon;
+}
+
+.nav p {
+  list-style: none;
+  float: right;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  left: 35%;
+  color: white;
+
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 275px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto;
+}
+
+.content p {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.content a {
+  text-decoration: none;
+  background-color: rgba(233, 150, 122, 0.5);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.content a:hover {
+  background-color: rgb(233, 150, 122);
+}
+
+.services {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.services h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.services div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(233, 150, 122, 0.5);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.portfolio {
+  margin-top: 30px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+
+}
+
+.portfolio h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.portfolio p {
+  margin-bottom: 20px;
+}
